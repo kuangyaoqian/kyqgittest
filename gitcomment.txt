@@ -1,0 +1,17 @@
+$ git init      把这个目录变成Git可以管理的仓库，在当前文件下建立一个.git 的文件  
+$ git add         提交文件
+$ git commit -m"备注"              确认提交文件
+$ git log              查看日志
+$ git status          查看文件状态
+$ mkdir 文件名         创建一个文件（空目录）
+$ cd  文件名            跳转到该文件的目录下
+$ pwd                  显示当前目录的位置
+$ git diff             查看difference
+$ git checkout -- 文件名         撤回到上一次状态
+$ git rm 文件名                删除一个文件
+
+要关联一个远程库，使用命令git remote add origin git@github.com:Github 用户名/仓库名.git；
+
+使用命令git push -u origin master第一次推送master分支的所有内容
+此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+
